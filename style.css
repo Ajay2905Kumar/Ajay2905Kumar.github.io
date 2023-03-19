@@ -102,7 +102,7 @@ i{
     padding: 20px;
     overflow:hidden;
 }
-.free-btn{
+.free-btn,.free-btn1{
     height:42px;
     width:130px;
     padding:5px;
@@ -337,7 +337,7 @@ footer{
     }
     .nav-list p{
         position:relative;
-        padding-left:50px;
+        padding-left:4%;
     }
     .nav-items button{
         display: block;
@@ -373,9 +373,17 @@ footer{
         border-bottom-right-radius: 3px;
     }
     .free-btn{
-        height:40px;
-        margin-left:20px;
+        height:20%;
         width:350px;
+        margin-left:1px;
+        padding:10px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .free-btn1{
+        height:20%;
+        margin-left:15px;
+        width:80%;
         padding:10px;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
@@ -388,11 +396,11 @@ footer{
     }
     .section2 .image-sec{
         margin:auto;
-        width:100%;
+        width:90%;
     }
     .section2 .image-sec img{
-        width:400px;
-        height:350px;
+        width:100%;
+        height:70%;
     }
     .s2-flex{
         width:100%;
@@ -410,23 +418,23 @@ footer{
         padding:0;
     }
     .section3 .sec3-content .sec3-img img{
-        width:400px;
+        width:100%;
         padding:0px;
-        height:350px;
+        height:70%;
     }
     .section3 .sec3-content .sec3-text{
         padding:35px;
         text-align:center;
     }
     .section3 .sec3-content .sec3-text .items{
-        height:100px;
+        height:30%;
         padding:10px;
     }
     .section3 .sec3-content .sec3-text h2{
         font-size:18px;
     }
     .section3 .sec3-content .sec3-text .items-1{
-        height:100px;
+        height:30%;
         border-left:none;
         border-bottom:5px solid #794CFF;
         margin-bottom:20px;
@@ -442,14 +450,14 @@ footer{
     }
     .more-row{
         display:block;
-        width:75%;
-        margin:auto;
+        text-align: center;
     }
     .more-row button{
         border:none;
         border-radius:5px;
-        width:300px;
+        width:80%;
         height:40px;
+        text-align:center;
         font-weight:500;
         background-color:#ECE5FF;
         color:#794CFF;
@@ -461,16 +469,17 @@ footer{
     .section5 .sec5 .sec5-content{
         width:100%;
         text-align: center;
-        height:200px;
+        height:50%;
         margin:20px 0;
     }
     .section5 .sec5 .sec5-img{
         width:100%;
+        margin:auto;
         padding:0;
     }
     .section5 .sec5 .sec5-img img{
-        width:400px;
-        height:350px;
+        width:100%;
+        height:70%;
     }
     .section6 .testimonial{
         margin:0 20px;
@@ -482,6 +491,9 @@ footer{
         width:100%;
         border-radius:0px;
         display:block;
+    }
+    .buttons{
+        text-align:center;
     }
     .about-app .trust-msg p{
         font-size:20px;
