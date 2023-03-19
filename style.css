@@ -43,6 +43,9 @@ i{
 .nav-options{
     font-family: 'Inter', sans-serif;
 }
+.buttons{
+    display: inline;
+}
 .free{
     margin:10px;
     padding:10px 20px 10px 20px;
@@ -428,13 +431,19 @@ footer{
     }
     .section3 .sec3-content .sec3-text .items{
         height:30%;
+        width:90%;
         padding:10px;
+        margin:auto;
+        text-align: center;
     }
     .section3 .sec3-content .sec3-text h2{
         font-size:18px;
     }
     .section3 .sec3-content .sec3-text .items-1{
         height:30%;
+        width:90%;
+        text-align: center;
+        margin:auto;
         border-left:none;
         border-bottom:5px solid #794CFF;
         margin-bottom:20px;
