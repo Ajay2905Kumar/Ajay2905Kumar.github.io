@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.section{
+    padding:20px;
+}
+.section-card{
+    position: relative;
+    width:30%;
+    border:1px solid black;
+    float:left;
+    margin-right:20px;
+    background-color: gray;
+}
+.section-card .section-title{
+    float: right;
+    width:100px;
+    text-align: center;
+    padding:5px;
+    border:1px solid black;
+}
+.section-card .section-title p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-card .section-body{
+    padding:5px 20px 0 20px;
+    clear: right;
+    color: white;
+}
+.section #card1-title{
+    background-color: lightcoral;
+}
+.section #card2-title{
+    background-color: lightgoldenrodyellow;
+}
+.section #card3-title{
+    background-color: lightblue;
+}
+@media (min-width:768px) and (max-width:991px){
+    .section #card3{
+        clear:left;
+        width:100%;
+    }
+    .section #card1,#card2{
+        width:48.5%;
+        margin-bottom:20px;
+    }
+    .section #card1{
+        margin-right:20px;
+    }
+    .section #card2{
+        margin-right:0;
+    }
+}
+@media (max-width:767px){
+    .section-card{
+        clear:left;
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
