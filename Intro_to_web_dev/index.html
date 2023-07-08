@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Flight Ticket Booking Form</h1>
+        <form>
+            <label>Journey Type</label>
+            <br>
+            <input type="radio" name="trip-type" value="Round-way" required>Round way
+            <input type="radio" name="trip-type" value="One-way" required>One way
+            <br>
+            <br>
+            <input type="text" id="from" onblur="return validateCity(this)" placeholder="From" class="text-input" required>
+            <input type="text" id="to" onblur="return validateCity(this)" placeholder="To" class="text-input" required>
+            <br>
+            <br>
+            <label>Number of passengers</label>
+            <br>
+            <label>Adult: </label>
+            <input type="number" id="adult" placeholder="0" min="0" max="20" value="0" required>
+            <label>Children: </label>
+            <input type="number" id="children" placeholder="0" min="0" max="20" value="0" required>
+            <br>
+            <br>
+            <label>Journey Dates</label>
+            <br>
+            <input type="date" id="start-date" min="2023-07-08" required>
+            <input type="date" id="end-date" min="2023-07-08" required>
+            <br>
+            <br>
+            <label>Extra Add-on(s): (May charge you extra)</label>
+            <br>
+            <input type="checkbox" name="add-on" value="extra-luggage">Extra Luggage
+            <br>
+            <input type="checkbox" name="add-on" value="fast-forward">Fast Forward
+            <br>
+            <input type="checkbox" name="add-on" value="hands-on">Hands-on Luggage collection
+            <br>
+            <input type="checkbox" name="add-on" value="passengers">Personal support during travel
+            <br>
+            <input type="submit" id="submit-btn" onclick="return validateForm()">
+            <br>
+            <span id="errorMessage"></span>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
