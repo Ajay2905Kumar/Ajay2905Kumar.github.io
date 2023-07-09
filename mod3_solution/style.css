@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar{
+    border-bottom: 4px solid black;
+    background-color: gray;
+}
+.navbar .navbar-brand h2{
+    font-size:40px;
+    font-weight: bold;
+}
+.navbar .collapse-toggler{
+    width:40px;
+    height:40px;
+    border:3px solid white;
+    border-radius:5px;
+    background-color: gray;
+}
+.navbar .collapse-toggler .bars{
+    width:80%;
+    margin:5px auto;
+    height:3px;
+    background-color: white;
+    position: relative;
+}
+.navbar .navbar-collapse .nav-item{
+    position:relative;
+    background-color: white;
+    width:100%;
+    height:40px;
+    margin:5px 0;
+    border:2px solid black;
+}
+.navbar .navbar-collapse .nav-item a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+
+}
+.main-content h2{
+    font-size:60px;
+    font-weight: bold;
+}
+.main-content .box{
+    background-color:rgb(169, 169, 169);
+    border:none;
+    margin:20px 0;
+    padding:20px;
+}
+.main-content .box h3{
+    font-weight: bold;
+    font-size:40px;
+}
+@media (min-width:992px) and (max-width:1199px){
+    .main-content h2{
+        font-size:55px;
+    }    
+}
+@media (min-width:768px) and (max-width:991px){
+    .main-content h2{
+        font-size:50px;
+    }    
+}
+@media (min-width:576px) and (max-width:767px){
+    .main-content h2{
+        font-size:45px;
+    }    
+}
+@media (max-width:575px){
+    .main-content h2{
+        font-size:40px;
+    }    
+}
